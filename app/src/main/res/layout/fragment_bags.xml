@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hilary.hcmarket.BagsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="#ff1325"
+        android:text="Get your self a best quality bag" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/b1"
+                    android:layout_marginLeft="20dp"
+                    />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/b"
+                    android:layout_marginLeft="40dp"
+                    />
+                <!--<ImageView-->
+                    <!--android:layout_width="200sp"-->
+                    <!--android:src="@drawable/b1">-->
+                    <!--android:layout_height="200sp"/>-->
+                <!--<ImageView-->
+                    android:layout_width="170sp"
+                    <!--android:src="@drawable/b2"-->
+                    android:layout_marginLeft="5sp"
+                    android:layout_height="200sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content">
+                <!--<ImageView-->
+                    <!--android:layout_width="200sp"-->
+                    <!--&lt;!&ndash;android:src="@drawable/b3"&ndash;&gt;-->
+                    <!--android:layout_height="200sp" />-->
+                <!--<ImageView-->
+                    <!--android:layout_width="170sp"-->
+                    <!--&lt;!&ndash;android:src="@drawable/b4"&ndash;&gt;-->
+                    <!--android:layout_marginLeft="5sp"-->
+                    <!--android:layout_height="200sp" />-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/b5"
+                    android:layout_height="200dp" />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/b6"
+                    android:layout_marginLeft="5sp"
+                    android:layout_height="200sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>
